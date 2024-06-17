@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on XtoPY</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on XtoPY</description>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jan 2022 16:01:16 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistics for Beginners</title>
+      <link>http://localhost:1313/posts/a-quick-guide-to-the-basics-of-statistics/</link>
+      <pubDate>Thu, 13 Jan 2022 16:01:16 +0530</pubDate>
+      <guid>http://localhost:1313/posts/a-quick-guide-to-the-basics-of-statistics/</guid>
+      <description>A simple explanation of the basic concepts in statistics in simple words and with examples</description>
+      <content:encoded><![CDATA[<p>I often find people either terrified or bored by statistics. In some friend circles it is even a shorthand for &lsquo;boring&rsquo;. I attribute this misjudgment to people not being shown the beauty and everyday usefulness of statistics. As a result of which they akin stats to something used by boring professors and crazy scientists. I want to break notion by &lsquo;breaking-down&rsquo; statistics into it&rsquo;s constituent parts. Thereby showing to everyone that it&rsquo;s really just common sense on steroids. That&rsquo;s all.</p>
+<p>So without much ado, in this series of blog post, over the next couple of weeks, I shall (try to) explain with simplicity and brevity, what statistics means, does and how it is used in everyday life.
+Let&rsquo;s do the numbers, shall we?!</p>
+<h2 id="statistics">Statistics</h2>
+<p>Statistics is the the art of learning from data.
+In lay terms, it involves, summarizing, influencing, predicting.
+<img loading="lazy" src="https://i.imgur.com/Mp8y8k0.jpeg" alt=""  />
+</p>
+<h2 id="types-of-statistics">Types of Statistics</h2>
+<p><strong>Descriptive Statistics</strong>
+Describing and summarizing the data to examine and explore information for its own sake.
+Descriptive statistics is what they mean when people say, &ldquo;They want to learn what the numbers say&rdquo;
+This could be considered the purest form of statistics in that we are simply reporting what we see. No inferences, no external ideas, whatsoever. We take what we get and say things about it as they appear.</p>
+<p><strong>Inferential Statistics</strong>
+Drawing conclusions from data.
+In it we examine and explore a sample extracted from a population with the purpose of making predictions and drawing conclusions upon the population.
+The population being, the entire set of data (eg: all 100 employees in a company) and the sample people a subset of it (10 employees selected at random for an experiment)</p>
+<p>One interesting and major part of Inferential statistics is Probability Theory. We will be looking at it in greater detail later on but for now understand this&ndash; We live in a <a href="https://en.wikipedia.org/wiki/Volatility,_uncertainty,_complexity_and_ambiguity">VUCA</a> world, whenever there is a possibility of something happening or not happening, there is probability involved and hence Inferential Statistics comes to the rescue</p>
+<h2 id="what-is-the-center-of-this-thing">What is the center of this thing?</h2>
+<p>Aka, Measures of Central Tendency. You can think of these as a set of scores to help figure out what is the most common thing among a set of things.
+A good example is&ndash; Say you have a bucket that contains a mix of green and red apples. You can use (a) measures of central tendency to figure out which type is more common&ndash; green or red.</p>
+<h2 id="types-of-measures-of-central-tendency">Types of Measures of Central Tendency</h2>
+<p>As shared earlier, these scores measure the most typical value in or center of the data set.
+<strong>Mean</strong>
+The mean of a data set is the sum of observations divided by number of observations. This works well when you have a count of things and a subcategory for each type.
+For example, As HR, you conducted a IQ test in your organization and want to find out whats the basic average IQ of a department.
+This is super easy with Mean. You simply sum up all the scores, then divide that number by the total number of employees in that department.</p>
+<p><strong>Median</strong>
+The median of a data set splits the data set into a bottom 50% and  a top 50%. In other words, it&rsquo;s the &ldquo;Middle most&rdquo; value of your dataset.
+<img loading="lazy" src="https://cdn1.byjus.com/wp-content/uploads/2020/11/ruler.png" alt=""  />
+
+Think of a ruler of 6 centimeter length. The median of this ruler is at 3 centimeter.
+Using
+<strong>How to</strong>:
+Here&rsquo;s how you can get your median:
+Step 1: Arrange the data in ascending order
+Step 2A: If the total number of items (n) is an odd number then the median is n/2
+Step 2B: If the total number of items (n) is an even number then the median is the average of n/2 and n/2+1</p>
+<p><strong>Mode</strong>
+The mode is the most frequently occurring value in the data set. In our apple basket example, this is the ideal measure of central tendency one could use. Literally take an apple out of the basket and place it either in the red pile or the green pile.
+After all the apples in the bucket have been exhausted, you will find either of the 3 cases to be true:</p>
+<ul>
+<li>Red pile is greater than the green pile
+<ul>
+<li>In this case, the Red apple has the mode</li>
+</ul>
+</li>
+<li>Green pile is greater than the red pile
+<ul>
+<li>In this case, the Green apple has the mode</li>
+</ul>
+</li>
+<li>Both piles are of equal size
+<ul>
+<li>In this case, there does not exist a mode</li>
+</ul>
+</li>
+</ul>
+<p>Another example:
+Take this list of emojis: [🍔🍎🍇🍈🍏🌕🌈🔥💧]
+here we see, each emoji appears only once.</p>
+<p>Take this new list of emojis: [🍔🍎💧🍇🍏💧🌈💧💧🔥💧]
+Here we can clearly see, The 💧 emoji (water droplet) appears a total of 5 times.
+Therefore, the Mode is 5 and it belongs to the 💧 meme.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Dealing with columns in pandas</title>
+      <link>http://localhost:1313/posts/dealing-with-columns-in-pandas/</link>
+      <pubDate>Sat, 15 Jan 2022 16:01:16 +0530</pubDate>
+      <guid>http://localhost:1313/posts/dealing-with-columns-in-pandas/</guid>
+      <description>In this post I go into some uncommon techniques I use every so often to select columns and rows from dataframes in pandas</description>
+      <content:encoded><![CDATA[<h2 id="why-even-bother">Why even bother?</h2>
+<p>When working with DataFrames in pandas, I have always missed the ease with which I could select rows and columns in Excel. Simple things like deleting a particular cell or arranging columns were soo incredibly easy and intuitive. Of course Google sheets take this one step further with its fancy editor. I am yet to find such ease of use within pandas.</p>
+<p>In today&rsquo;s post I would like to share a couple of handy techniques I use every soo often to deal with the seemingly simple task of selecting and moving around rows and columns in Pandas.</p>
+<h2 id="the-basics">The Basics</h2>
+<h3 id="setting-up-our-base-data">Setting up our base data</h3>
+<p>Here&rsquo;s the base code on top of which I will show all examples:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">re</span>
+</span></span><span class="line"><span class="cl"><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;https://people.sc.fsu.edu/~jburkardt/data/csv/zillow.csv&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><h2 id="vanilla-ways-of--selecting-columns">Vanilla ways of  selecting columns</h2>
+<h3 id="using-angle-brackets">Using angle brackets</h3>
+<p>Doing so will create a new df with the columns Index, Beds and Baths</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s1">&#39;Index&#39;</span><span class="p">,</span> <span class="s1">&#39;Beds&#39;</span><span class="p">,</span> <span class="s1">&#39;Baths&#39;</span><span class="p">]]</span>
+</span></span></code></pre></div><h3 id="using-get">Using .get</h3>
+<p>If any column mentioned in the list does not exist, it will return a NONE.
+This technique is useful for two reasons:</p>
+<ol>
+<li>When you need to explicitly and in a human readable way mention which columns you need</li>
+<li>When the each of the columns mentioned are absolutely necessary.</li>
+</ol>
+<p>If any one column could not be found in the source df, you get no df in the output. Instead you get a nice little &lsquo;None&rsquo;</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">&#39;Index&#39;</span><span class="p">,</span> <span class="s1">&#39;Beds&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">df</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">&#39;Index&#39;</span><span class="p">,</span> <span class="s1">&#39;Beds&#39;</span><span class="p">,</span> <span class="s1">&#39;Swimming Pools&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#$ None</span>
+</span></span></code></pre></div><h3 id="filter-from-existing-columns">Filter from existing columns</h3>
+<p>While &lsquo;.get&rsquo; returns a &lsquo;None&rsquo; on a nonexistent column, we can still return whatever other columns were found in the source df, sans the one that wasn&rsquo;t</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">isin</span><span class="p">([</span><span class="s1">&#39;Index&#39;</span><span class="p">,</span> <span class="s1">&#39;Beds&#39;</span><span class="p">,</span> <span class="s1">&#39;Swimming Pools&#39;</span><span class="p">])]]</span>
+</span></span></code></pre></div><h3 id="filter-out-unwanted-columns">Filter out unwanted columns</h3>
+<p>Select everything <strong>EXCEPT</strong> a particular column or a subset of columns.
+The following code gives us all columns except &ldquo;Beds&rdquo; and &ldquo;Sqft&rdquo;</p>
+<h4 id="using-difference">Using Difference</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">difference</span><span class="p">([</span><span class="s1">&#39;Beds&#39;</span><span class="p">,</span> <span class="s1">&#39;Sqft&#39;</span><span class="p">])]</span>
+</span></span></code></pre></div><h4 id="using-isin">Using .isin()</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">[</span><span class="o">~</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">isin</span><span class="p">([</span><span class="s1">&#39;Beds&#39;</span><span class="p">,</span><span class="s1">&#39;Sqft&#39;</span><span class="p">])]]</span>
+</span></span></code></pre></div><h2 id="pro-coder-ways-of--selecting-columns">Pro coder ways of  selecting columns</h2>
+<h3 id="selecting-based-on-data-type">Selecting based on data type</h3>
+<p>I recently had the good fortune of working with a huge dataset with a decade worth of transactions. One of the things I had to do was select all columns with some pricing information. This technique is a good candidate to show how we could use some better mindful ways to select data en mass.
+Before you use this technique, I would also suggest getting to know what the data types of each column with:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span>
+</span></span></code></pre></div><p>then using another command to automatically converting types or doing it manually</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">convert_dtypes</span><span class="p">()</span>
+</span></span></code></pre></div><p>Select all columns of type number (64 bit integers to be specific)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,(</span><span class="n">df</span><span class="o">.</span><span class="n">dtypes</span><span class="o">==</span><span class="s1">&#39;int64&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="p">]</span>
+</span></span></code></pre></div><p>Note: the required data was a 3 digit integer hence I choose &lsquo;int'64, else we would use more expansive types like float.</p>
+<h3 id="select-a-column-based-on-column-names">Select a column based on column names</h3>
+<h4 id="if-column-name-contains-a-character-or-word">If column name contains a character or word</h4>
+<p>Here the code says: Give me all rows of <code>df</code> for which each column has the word <code>'price'</code> in it.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,[</span><span class="s1">&#39;price&#39;</span> <span class="ow">in</span> <span class="n">i</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">]]</span>
+</span></span></code></pre></div><h4 id="if-column-name-starts-with-a-particular-character-or-word-prefix">If column name starts with a particular character or word (prefix)</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,[</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;S&#39;</span><span class="p">)]]</span>
+</span></span></code></pre></div><h4 id="if-column-name-ends-with-a-particular-character-or-word-suffix">If column name ends with a particular character or word (suffix)</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,[</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;s&#39;</span><span class="p">)]]</span>
+</span></span></code></pre></div><h2 id="exotic-ways-of--selecting-columns">Exotic ways of  selecting columns</h2>
+<p>Now this may not be your everyday use case but I still mention it here for reference. I use it every once in a while and always forget how it works. When it works, it works and you wonder why you didn&rsquo;t know this existed.</p>
+<h4 id="select-the-columns-if-the-rows-meet-a-certain-condition">Select the columns if the rows meet a certain condition</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,[(</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">)</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">]]</span>
+</span></span></code></pre></div><p>In this we use this thing called <code>list comprehension</code> where we generate a list of columns that meet a certain condition.</p>
+<h2 id="wrapping-up">Wrapping up</h2>
+<p>I hope these techniques were insightful and more than that, you use them in some project soon.
+I am always on the look out to improve my game, if you think you have something to add&ndash; either a whole new technique or changes to an existing bit of code, please hit me up on Github or Twitter at <a href="https://twitter.com/thisallwyn">@thisAllwyn</a> .
+You can also join my telegram Channel to interact with other Pythonistas and extend the conversation there 😄</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/a-quick-guide-to-sales-prediction-using-pandas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-quick-guide-to-sales-prediction-using-pandas/</guid>
+      <description>Self notes
+The analysis itself is secondary. The base data column, the key facts you collect are much more important. EG: While predicting the sales of a list of stores in a city&amp;ndash; Count of items, in store, sqft area of store, outlet type, city type in store Preparations
+Deal with null values (Substitute them with mean) Convert catagorial columns into 1-hot from sklearn.preprocessing import LabelEncoder Definitions: Target variable
+The varibale you want to successfully predict after your analysis ID columns Remove &amp;lsquo;ID&amp;rsquo; type columns from your DF as they do not add any value to the predictive model Process</description>
+      <content:encoded><![CDATA[<p>Self notes</p>
+<ul>
+<li>The analysis itself is secondary. The base data column, the key facts you collect are much more important.</li>
+<li>EG: While predicting the sales of a list of stores in a city&ndash; Count of items, in store, sqft area of store, outlet type, city type in store</li>
+</ul>
+<p>Preparations</p>
+<ul>
+<li>Deal with null values (Substitute them with mean)</li>
+<li>Convert catagorial columns into 1-hot
+<ul>
+<li><code>from sklearn.preprocessing import LabelEncoder</code></li>
+</ul>
+</li>
+</ul>
+<p>Definitions:
+Target variable</p>
+<ul>
+<li>The varibale you want to successfully predict after your analysis
+ID columns</li>
+<li>Remove &lsquo;ID&rsquo; type columns from your DF as they do not add any value to the predictive model</li>
+</ul>
+<p>Process</p>
+<ul>
+<li>PreProcess
+<ul>
+<li>Bring all columns to same same value count</li>
+</ul>
+</li>
+<li>Explore
+<ul>
+<li>Displot Each column(see value distribution)</li>
+</ul>
+</li>
+</ul>
+<h3 id="explore">Explore</h3>
+<h4 id="counts">Counts</h4>
+<p>In this phase, we want to make sure there is uniform distribution of values
+Displot</p>
+<ul>
+<li>Here we want to see how the values in the column are distributed</li>
+<li>It&rsquo;s skew (Center, Left, Right)</li>
+<li>If Left / Right skew then apply log transformation
+<ul>
+<li><code>np.log(1+df['sales'])</code>
+Countplot</li>
+</ul>
+</li>
+<li><code>sns.countplot()</code></li>
+</ul>
+<h4 id="correlation">Correlation</h4>
+<ul>
+<li><code>sns.heatmap(df.corr())</code></li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

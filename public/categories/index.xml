@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on XtoPY</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on XtoPY</description>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jan 2022 16:01:16 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Allwyns Field Guide</title>
+      <link>http://localhost:1313/categories/allwyns-field-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/allwyns-field-guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Analytics</title>
+      <link>http://localhost:1313/categories/data-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/data-analytics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pandas</title>
+      <link>http://localhost:1313/categories/pandas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/pandas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beginners Guides</title>
+      <link>http://localhost:1313/categories/beginners-guides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/beginners-guides/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
